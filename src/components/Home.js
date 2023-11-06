@@ -44,7 +44,8 @@ const Home = () => {
             className="homePageLogo"
             src={logo}
             alt="code-sync-logo"
-        /><h1>Code Sync</h1>
+        />
+        <h1>Code Sync <span className='realtimecol'> Realtime collaboration</span></h1>  
         </div>
         <h4 className="mainLabel">Paste invitation ROOM ID</h4>
         <div className="inputGroup">

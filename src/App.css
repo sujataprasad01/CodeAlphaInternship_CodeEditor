@@ -134,3 +134,82 @@ footer a:hover {
   display: flex;
   flex-direction: row;
 }
+.editorname img{
+  height: 50px;
+  width: 50px;
+  margin-top: 1%;
+  padding-top: 5%;
+}
+.realtimecol{
+  font-size: 12px;
+  display: flex;
+  margin-top: 3px;
+  color: #4aed88;
+}
+.editorLogo {
+  height: 80px;
+  margin-bottom: 10px;
+  margin-right: 1%;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.asideInner {
+  flex: 1;
+}
+.copyBtn{
+  width: 200px;
+}
+/* .buttonss{
+  display: flex;
+  flex-direction: row;
+} */
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
