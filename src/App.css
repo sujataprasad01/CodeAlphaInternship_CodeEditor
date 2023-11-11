@@ -213,4 +213,26 @@ footer a:hover {
   font-size: 20px;
   line-height: 1.6;
   padding-top: 20px;
+  /* height: 100vh; */
 }
+
+
+.editorWrap{
+  height: 100vh;
+}
+
+#realtimeEditor{
+  height: 100vh;
+}
+
+textarea{
+  height: 100vh;
+}
+
+.CodeMirror{
+  height: 100vh;
+}
+
+body {
+  overflow: hidden; 
+}  
